@@ -17,7 +17,7 @@ const forecast = (longitude, latitude, callback) => {
       const windSpeed = body.current.wind_speed;
       callback(
         undefined,
-        `${weatherDesc}. With windspeed of ${windSpeed} It is currently ${temparature} degrees out. It feels like ${apparentTemp} degrees out.`
+        `${weatherDesc}. With windspeed of ${windSpeed}, it is currently ${temparature} degrees out. It feels like ${apparentTemp} degrees out.`
       );
     }
   });
